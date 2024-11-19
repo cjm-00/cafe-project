@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Pink Coffee Corner - Contact</title>
+    <link rel="stylesheet" href="../style.css" />
+
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="../index.html">
+                <img src="../assets/mug-hot-solid.svg" id="logo-pink" alt="PCC Logo" />
+            </a>
+            <a href="./about.html">ABOUT</a>
+            <a href="#">CONTACT</a>
+             
+        </nav>
+    </header>
+
+    <main>
+        <section class="main-section contact" id="contact">
+            <h1>Contact Us</h1>
+        
+            <div class="contact-body">
+        <form style="width: min-content;"  action="./result.html" >
+        <div class="form-box">
+            <div>
+            <label for="fullnameInput">First Name</label>
+            <input 
+                type="text" 
+                id="firstnameInput" 
+                name="first-name"   
+                required 
+            />
+            </div>
+            <br />
+            <div>
+                <label for="emailInput">Email</label>
+                <input 
+                    type="text" 
+                    id="emailInput" 
+                    name="email"   
+                    required 
+                    />
+                </div>
+                <br />
+            <label for="enquiryInput">Enquiry Type</label>
+            
+            <select  id="enquiryInput" name="enquiry" required>
+                <option disabled selected>Choose one</option>
+                <option value="book">Bookings</option>
+                <option value="order">Online Orders</option>
+                <option value="complaint">Complaints</option>
+            </select>
+            
+            <!-- <div>
+                <label for="textareaInput">Text Area</label>
+            </div> -->
+            <div>
+                <br>
+            </div>
+
+            <div>        
+                <textarea
+                id="textareaInput"
+                required rows="18" cols="45">
+                
+                </textarea>
+            </div>
+            <br>
+
+            <button type="submit">Submit</button>
+    
+        </div>
+    
+            
+    
+        </form>
+
+        <img src="../assets/contact.jpg" alt="contact-pic">
+    </div>
+    </section>
+    </main>
+</body>
+
+<footer>
+    <img src="../assets/mug-hot-solid.svg" id="logo-white" alt="PCC Logo" />
+    <p>Copyright 2024</p>
+</footer>
+
+
+</html>

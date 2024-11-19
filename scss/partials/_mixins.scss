@@ -1,0 +1,15 @@
+@mixin full-screen {
+    height: 100vh;
+    width: 100%;
+}
+
+@mixin flex($direction: row, $justify: flex-start) {
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $justify;
+}
+
+@mixin colors($bg-color, $text-color) {
+    background-color: $bg-color;
+    color: $text-color;
+    }
