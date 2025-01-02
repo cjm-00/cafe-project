@@ -1,52 +1,59 @@
-@use './scss/partials/normalize';
-@use './scss/partials/mixins';
-@use './scss/sections/header';
-@use './scss/sections/menu';
-@use './scss/sections/reviews';
-@use './scss/sections/contact';
+@use "./scss/partials/normalize";
+@use "./scss/partials/mixins";
+@use "./scss/sections/header";
+@use "./scss/sections/menu";
+@use "./scss/sections/reviews";
+@use "./scss/sections/contact";
+@use "./scss/partials/fonts";
 
-body{
-    height: 100vh;
-    width: 100%;
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
 }
 
 #logo-pink {
-    height: 40px;
-    width: 40px;
-    transform: scale(-1,1);
-    align-content: flex-start;
-    filter: invert(67%) sepia(69%) saturate(322%) hue-rotate(316deg) brightness(94%) contrast(109%);
+  height: 40px;
+  width: 40px;
+  transform: scale(-1, 1);
+  align-content: flex-start;
+  filter: invert(67%) sepia(69%) saturate(322%) hue-rotate(316deg)
+    brightness(94%) contrast(109%);
 }
 
 #logo-white {
-    height: 40px;
-    width: 40px;
-    transform: scale(-1,1);
-    align-items: flex-start;
-    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(93deg) brightness(103%) contrast(103%);
+  height: 40px;
+  width: 40px;
+  transform: scale(-1, 1);
+  align-items: flex-start;
+  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(93deg) brightness(103%)
+    contrast(103%);
 }
 
-
-
 #menu-tag {
-    height: 20px;
-    filter: invert(65%) sepia(13%) saturate(519%) hue-rotate(81deg) brightness(92%) contrast(86%);
+  height: 20px;
+  filter: invert(65%) sepia(13%) saturate(519%) hue-rotate(81deg)
+    brightness(92%) contrast(86%);
 }
 
 #menu-pic {
-    height: 300px;
-    width: 290px;
+  height: 300px;
+  width: 290px;
 }
 
 #quote-start {
-    height: 25px;
-    filter: invert(19%) sepia(22%) saturate(0%) hue-rotate(289deg) brightness(107%) contrast(87%);
-    white-space: nowrap;
+  height: 25px;
+  filter: invert(19%) sepia(22%) saturate(0%) hue-rotate(289deg)
+    brightness(107%) contrast(87%);
+  white-space: nowrap;
 }
 
-#quote-end{
-    height: 25px;
-    filter: invert(19%) sepia(22%) saturate(0%) hue-rotate(289deg) brightness(107%) contrast(87%);
-    white-space: nowrap;
-    
+#quote-end {
+  height: 25px;
+  filter: invert(19%) sepia(22%) saturate(0%) hue-rotate(289deg)
+    brightness(107%) contrast(87%);
+  white-space: nowrap;
 }

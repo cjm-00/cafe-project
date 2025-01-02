@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Rammetto+One&display=swap");
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -312,19 +313,24 @@ template {
 header nav {
   height: 5vh;
   display: flex;
-  justify-content: flex-end;
-  padding-top: 30px;
+  justify-content: space-between;
   padding-right: 30px;
   padding-left: 90px;
-  padding-bottom: 1px;
+  padding-bottom: 15px;
   gap: 80px;
+}
+header nav div {
+  padding-top: 30px;
 }
 header nav a {
   flex-direction: row;
   color: #404040;
-  font-family: "open sans";
+  font-family: "Open Sans";
   font-weight: bold;
   text-decoration: none;
+  margin-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 header nav a:hover {
   color: #FAA196;
@@ -342,7 +348,7 @@ header h2 {
 }
 header h1 {
   font-size: 3em;
-  font-family: "rammetto one";
+  font-family: "Rammetto One";
   line-height: 1.7;
 }
 header h2 {
@@ -387,13 +393,13 @@ header .header-section .hero-image {
 .menu-section h1 {
   color: #FAA196;
   text-align: center;
-  font-family: "rammetto one";
+  font-family: "Rammetto One";
   font-size: 3em;
 }
 .menu-section details summary {
   background-color: #EBC9C4;
   color: #404040;
-  font-family: "open sans";
+  font-family: "Open Sans";
   font-weight: bold;
   font-size: 1.5em;
   padding: 15px;
@@ -402,10 +408,11 @@ header .header-section .hero-image {
 }
 .menu-section details .dropdown {
   display: flex;
-  flex-direction: row;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   gap: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
   flex-wrap: wrap;
 }
 .menu-section details .dropdown .card {
@@ -415,7 +422,7 @@ header .header-section .hero-image {
   padding-top: 25px;
   color: #404040;
   text-align: center;
-  font-family: "open sans";
+  font-family: "Open Sans";
   flex-shrink: 0;
 }
 .menu-section details .dropdown .card .card-title {
@@ -439,7 +446,7 @@ header .header-section .hero-image {
 .review-section h1 {
   color: white;
   text-align: center;
-  font-family: "rammetto one";
+  font-family: "Rammetto One";
   font-size: 3em;
   margin: 0%;
   padding: 30px;
@@ -459,7 +466,7 @@ header .header-section .hero-image {
   text-align: center;
 }
 .review-section .review-card-section .review-cards--text-quote {
-  font-family: "open sans";
+  font-family: "Open Sans";
   font-weight: bold;
   color: #404040;
   font-style: italic;
@@ -470,7 +477,7 @@ header .header-section .hero-image {
   justify-content: center;
 }
 .review-section .review-card-section .review-cards--text-name {
-  font-family: "open sans";
+  font-family: "Open Sans";
   color: #404040;
   font-size: 1em;
   padding-left: 35px;
@@ -481,7 +488,7 @@ header .header-section .hero-image {
   padding-top: 20px;
 }
 .review-section .review-card-section .review-cards--text-date {
-  font-family: "open sans";
+  font-family: "Open Sans";
   color: #404040;
   font-size: 1em;
   padding-left: 35px;
@@ -494,7 +501,7 @@ header .header-section .hero-image {
 footer {
   background-color: #82A289;
   color: white;
-  font-family: "open sans";
+  font-family: "Open Sans";
   display: flex;
   padding: 30px;
   padding-left: 70px;
@@ -509,7 +516,7 @@ footer {
 .contact h1 {
   color: white;
   text-align: center;
-  font-family: "rammetto one";
+  font-family: "Rammetto One";
   font-size: 3em;
   padding: 40px;
 }
@@ -554,6 +561,10 @@ footer {
   padding: 30px;
   padding-left: 70px;
   gap: 10px;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
